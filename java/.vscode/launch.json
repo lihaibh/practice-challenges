@@ -1,0 +1,46 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Main",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "stopOnEntry": false,
+      "mainClass": "challenges.time_based_hashtable.Main",
+      "args": "",
+      "projectName": "myproject"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - UnsynchronizedThreads",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "stopOnEntry": false,
+      "mainClass": "app.UnsynchronizedThreads",
+      "args": "",
+      "projectName": "myproject"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current Main File",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "build",
+      "stopOnEntry": false,
+      "projectName": "myproject",
+      "console": "internalConsole",
+      "mainClass": "${selectedText}.${fileBasenameNoExtension}"
+    },
+    {
+      "type": "java",
+      "name": "Attach Local Java Process",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": 0
+    }
+  ],
+  "compounds": []
+}
